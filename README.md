@@ -1,6 +1,6 @@
 
 
-# Movie Analysis
+# Predict Credit Score Using Machine Learning
 
 ## Goal
 For a bank, classifying customers’ credit scores is essential for managing risks and making informed
@@ -16,6 +16,7 @@ monthly inhand salary, number of bank accounts, etc.
 
 ## Method 1: Random Forest Classifier
 ![image](https://github.com/user-attachments/assets/a744b5f3-a77d-4564-a488-777a4f5bebc5)
+
 With all metrics (accuracy, weighted precision, weighted recall, and
 weighted F1-score) around 82% in the test result, Random Forest Classifier
 demonstrates a more robust and consistent performance. Notably, it classified 83.62% of individuals with
@@ -26,6 +27,7 @@ of ”Poor” being classified as ”Good” and 0.28% instances of ”Good” b
 
 ## Method 1: Logistic Regression
 ![image](https://github.com/user-attachments/assets/8f3c760e-768f-4ff6-a733-91c1cc267f4f)
+
 All metrics of the model remain below
 70%, indicating that there is significant room for improvement. While it correctly classifies 84.86% of
 individuals with good credit, it only manages to classify 66.79% of individuals with bad credit correctly.
