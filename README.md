@@ -25,7 +25,7 @@ categories. This demonstrates the model’s effectiveness in identifying high-ri
 for minimizing potential losses. It also has very few severe misclassifications, with only 0.38% instances
 of ”Poor” being classified as ”Good” and 0.28% instances of ”Good” being classified as ”Poor”.
 
-## Method 1: Logistic Regression
+## Method 2: Logistic Regression
 ![image](https://github.com/user-attachments/assets/8f3c760e-768f-4ff6-a733-91c1cc267f4f)
 
 All metrics of the model remain below
